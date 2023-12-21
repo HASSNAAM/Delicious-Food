@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body {
+  background-color: #0e0d0b;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-image: url(images/bg.jpg);
+  height: 100vh;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+.logo {
+  margin-top: 20px;
+}
+.logo img {
+  float: left;
+}
+.logo i {
+  float: right;
+  background-color: #e4c290;
+  font-size: 28px;
+  cursor: pointer;
+}
+nav ul {
+  display: none;
+}
+.clr {
+  clear: both;
+}
+.content {
+  color: #fff;
+  text-align: center;
+}
+.content div {
+  transform: translatey(50%);
+}
+.content div > *,
+.content {
+  line-height: 45px;
+}
+small {
+  color: #e4c290;
+  font-size: 15px;
+  font-weight: 700;
+}
+h1 {
+  font-weight: 400;
+  padding: 10px 0;
+}
+.content button {
+  margin: 20px 0 0 0;
+  background: transparent;
+  padding: 10px 20px;
+  color: #e4c290;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.content button:hover {
+  background-color: #e4c290;
+  color: #0e0d0b;
+}
+article {
+  margin-top: 50px;
+}
+article .card,
+menu .chef {
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+h4 {
+  color: #fff;
+  padding: 5px;
+}
+.card a {
+  color: #e4c290;
+  display: block;
+  padding: 5px;
+}
+main {
+  margin-top: 50px;
+  text-align: center;
+}
+main h5,
+main a {
+  display: block;
+  color: #e4c290;
+}
+main .content button {
+  margin: 20px;
+}
+img:not(.logo img) {
+  width: 100%;
+}
+menu {
+  background-color: #171819;
+  margin-top: 50px;
+}
+menu h5,
+p,
+h2 {
+  color: #fff;
+}
+menu p {
+  margin: 10px;
+}
+.form-contact {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.form-contact p,
+footer p {
+  color: #9d9d9d;
+}
+form {
+  text-align: center;
+}
+input,
+textarea {
+  background: #1a1b1c;
+  color: #9d9d9d;
+  border: #9d9d9d 1px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  height: 60px;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+input:hover,
+textarea:hover {
+  border-color: #e4c290;
+}
+form button {
+  color: #0e0d0c;
+  margin: 20px 0;
+  border: 2px solid #e4c290;
+  background: #e4c290;
+  padding: 20px;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+form button:hover {
+  background-color: #0e0d0b;
+  color: #fff;
+}
+footer {
+  text-align: center;
+  margin: 20px;
+}
+@media screen and (min-width: 992px) {
+  .logo i {
+    display: none;
+  }
+  nav ul {
+    display: block;
+    float: right;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+  }
+  nav a:hover {
+    background-color: #e4c290;
+  }
+  article {
+    margin-top: 100px;
+  }
+  article .card {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+  }
+  main .content {
+    float: left;
+    width: 45%;
+    padding: 0 30px 0 0;
+  }
+  main div:has(img) {
+    float: right;
+    width: 55%;
+    padding-top: 100px;
+  }
+  menu .chef {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+  }
+  .form-contact {
+    padding: 30px;
+  }
+  form {
+    width: 50%;
+    float: left;
+    padding: 0 30px 0 0;
+  }
+  form + div {
+    width: 50%;
+    float: right;
+  }
+}
+@media screen and (max-width: 374px) {
+  .content div {
+    transform: translatey(10%);
+  }
+}
