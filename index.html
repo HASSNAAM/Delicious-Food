@@ -1,154 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <head>
-        <!-- Google Fonts Pre Connect -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Font Awosome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-        <!-- Meta Tags -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files Links -->
+    <link rel="stylesheet" href="./styles/style.css" />
 
-        <!-- Font Awosome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Title -->
+    <title>Delicious Food</title>
+  </head>
 
-        <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-
-        <!-- CSS Files Links -->
-        <link rel="stylesheet" href="style.css">
-
-        <!-- Title -->
-        <title>Delicious Food</title>
-    </head>
-
-    <body>
-        <div class="container">
-            <header>
-                <nav>
-                    <div class="logo">
-                        <img src="images/sidebar-logo.png" alt="logo">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">our chefs</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                    <div class="clr"></div>
-                </nav>
-                <div class="content">
-                    <div>
-                        <small>Tradational & Hygine</small>
-                        <h1>For the love of<br>
-                            delicious food</h1>
-                        <p>Come with family & feel the joy of mouthwatering food</p>
-                        <button>VIEW OUR MENU</button>
-                    </div>
-                </div>
-            </header>
-            <article>
-                <div class="content">
-                    <small>FLAVORS FOR ROYALTY</small>
-                    <h2>We Offer Top <br> Notch</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae praesentium hic quas necessitatibus
-                        accusantium eveniet
-                        error debitis harum dolorem maxime natus, nihil aliquid voluptates nesciunt eligendi nobis rerum
-                        id alias?</p>
-                </div>
-                <div>
-                    <div class="card">
-                        <img src="images/offer-image-1.jpg" alt="offer">
-                        <h4>Breakfast</h4>
-                        <a href="#">VIEW MENU</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/offer-image-2.jpg" alt="offer">
-                        <h4>Appetizers</h4>
-                        <a href="#">VIEW MENU</a>
-                    </div>
-                    <div class="card">
-                        <img src="images/offer-image-3.jpg" alt="offer">
-                        <h4>Drinks</h4>
-                        <a href="#">VIEW MENU</a>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </article>
-            <main>
-                <div class="content">
-                    <small>OUR STORY</small>
-                    <h2>Every Flavor <br> Tells a Story</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae praesentium hic quas necessitatibus
-                        accusantium eveniet
-                        error debitis harum dolorem maxime natus, nihil aliquid voluptates nesciunt eligendi nobis rerum
-                        id alias?</p>
-                    <h5>Book Through Call</h5>
-                    <a href="#">+80 (400) 123 4567</a>
-                    <button>READ MORE</button>
-                </div>
-                <div>
-                    <img src="images/gallery-1.jpg" alt="gallary">
-                </div>
-                <div class="clr"></div>
-            </main>
+  <body>
+      <header>
+        <nav>
+          <div class="logo">
+            <img src="images/sidebar-logo.png" alt="logo" />
+            <i class="fa-solid fa-bars" id="menu"></i>
+          </div>
+          <ul id="list">
+            <li><a href="#" class="link">home</a></li>
+            <li><a href="#">menu</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">our chefs</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+          <div class="clr"></div>
+        </nav>
+        <div class="content">
+          <div>
+            <small>Tradational & Hygine</small>
+            <h1>
+              For the love of<br />
+              delicious food
+            </h1>
+            <p>Come with family & feel the joy of mouthwatering food</p>
+            <button>VIEW OUR MENU</button>
+          </div>
         </div>
-        <menu>
-            <div class="container">
-                <div class="content">
-                    <small>EXPERIENCED TEAM</small>
-                    <h2>Meet Our Chef</h2>
-                </div>
-                <div>
-                    <div class="chef">
-                        <img src="images/team-1.jpg" alt="chef">
-                        <h5>Willium Joe</h5>
-                        <small>MASTER CHEF</small>
-                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.
-                        </p>
-                    </div>
-                    <div class="chef">
-                        <img src="images/team-2.jpg" alt="chef">
-                        <h5>Willium Joe</h5>
-                        <small>MASTER CHEF</small>
-                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.
-                        </p>
-                    </div>
-                    <div class="chef">
-                        <img src="images/team-3.jpg" alt="chef">
-                        <h5>Willium Joe</h5>
-                        <small>MASTER CHEF</small>
-                        <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.
-                        </p>
-                    </div>
-                    <div class="clr"></div>
-                </div>
-            </div>
-        </menu>
-        <div class="container">
-            <div class="form-contact">
-                <h2>Message us</h2>
-                <p>Have a question about the our service? We're here to help, contact us today</p>
-            </div>
-            <form>
-                <input type="text" name="name" placeholder="name">
-                <input type="email" name="email" placeholder="email">
-                <input type="text" name="sub" placeholder="subject">
-                <textarea name="message" placeholder="message" cols="30" rows="10"></textarea>
-                <button type="submit">SEND MESSAGE</button>
-            </form>
-            <div>
-                <img src="images/gallery-2.jpg" alt="gallary">
-            </div>
-            <div class="clr"></div>
-            <footer>
-                <p>&copy; 2023 Restaurt. All Rights Reserved</p>
-            </footer>
+      </header>
+      <div class="container">
+      <article>
+        <div class="content">
+          <small>FLAVORS FOR ROYALTY</small>
+          <h2>
+            We Offer Top <br />
+            Notch
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            praesentium hic quas necessitatibus accusantium eveniet error
+            debitis harum dolorem maxime natus, nihil aliquid voluptates
+            nesciunt eligendi nobis rerum id alias?
+          </p>
         </div>
-    </body>
-
+        <div>
+          <div class="card">
+            <img src="images/offer-image-1.jpg" alt="offer" />
+            <h4>Breakfast</h4>
+            <a href="#">VIEW MENU</a>
+          </div>
+          <div class="card">
+            <img src="images/offer-image-2.jpg" alt="offer" />
+            <h4>Appetizers</h4>
+            <a href="#">VIEW MENU</a>
+          </div>
+          <div class="card">
+            <img src="images/offer-image-3.jpg" alt="offer" />
+            <h4>Drinks</h4>
+            <a href="#">VIEW MENU</a>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </article>
+      <main>
+        <div class="content">
+          <small>OUR STORY</small>
+          <h2>
+            Every Flavor <br />
+            Tells a Story
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+            praesentium hic quas necessitatibus accusantium eveniet error
+            debitis harum dolorem maxime natus, nihil aliquid voluptates
+            nesciunt eligendi nobis rerum id alias?
+          </p>
+          <h5>Book Through Call</h5>
+          <a href="#">+80 (400) 123 4567</a>
+          <button>READ MORE</button>
+        </div>
+        <div>
+          <img src="images/gallery-1.jpg" alt="gallary" />
+        </div>
+        <div class="clr"></div>
+      </main>
+      </div>
+    <menu>
+      <div class="container">
+        <div class="content">
+          <small>EXPERIENCED TEAM</small>
+          <h2>Meet Our Chef</h2>
+        </div>
+        <div>
+          <div class="chef">
+            <img src="images/team-1.jpg" alt="chef" />
+            <h5>Willium Joe</h5>
+            <small>MASTER CHEF</small>
+            <p>
+              Lorem Ipsum is simply dummy printing and typeset industry lorem
+              Ipsum has been the industrys.
+            </p>
+          </div>
+          <div class="chef">
+            <img src="images/team-2.jpg" alt="chef" />
+            <h5>Willium Joe</h5>
+            <small>MASTER CHEF</small>
+            <p>
+              Lorem Ipsum is simply dummy printing and typeset industry lorem
+              Ipsum has been the industrys.
+            </p>
+          </div>
+          <div class="chef">
+            <img src="images/team-3.jpg" alt="chef" />
+            <h5>Willium Joe</h5>
+            <small>MASTER CHEF</small>
+            <p>
+              Lorem Ipsum is simply dummy printing and typeset industry lorem
+              Ipsum has been the industrys.
+            </p>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </menu>
+    <div class="container">
+      <div class="form-contact">
+        <h2>Message us</h2>
+        <p>
+          Have a question about the our service? We're here to help, contact us
+          today
+        </p>
+      </div>
+      <form>
+        <input type="text" name="name" placeholder="name" />
+        <input type="email" name="email" placeholder="email" />
+        <input type="text" name="sub" placeholder="subject" />
+        <textarea
+          name="message"
+          placeholder="message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+      <div>
+        <img src="images/gallery-2.jpg" alt="gallary" />
+      </div>
+      <div class="clr"></div>
+      <footer>
+        <p>&copy; 2023 Restaurt. All Rights Reserved</p>
+      </footer>
+    </div>
+<script src="./logic/index.js"></script>
+  </body>
 </html>
