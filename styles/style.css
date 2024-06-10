@@ -38,7 +38,7 @@ nav {
   color: #e4c290;
   font-size: 35px;
 }
-.active{
+.active {
   display: none;
 }
 ul li a {
@@ -53,7 +53,8 @@ ul li a {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-nav a:hover,.link {
+nav a:hover,
+.link {
   color: #e4c290;
 }
 .clr {
@@ -173,7 +174,7 @@ textarea {
   resize: none;
 }
 input:hover,
-textarea:hover ,
+textarea:hover,
 input:focus,
 textarea:focus {
   border-color: #e4c290;
@@ -255,13 +256,13 @@ footer {
     -moz-transform: translatey(25%);
     -ms-transform: translatey(25%);
     -o-transform: translatey(25%);
-}
-  ul{
+  }
+  ul {
     position: absolute;
     top: 95px;
     background-color: #1a1b1c;
     z-index: 100;
     width: 80%;
-    padding:0 30px;
+    padding: 0 30px;
   }
 }
